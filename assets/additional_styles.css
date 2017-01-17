@@ -1,3 +1,15 @@
+.download{
+  color: white
+}
+
+.media-heading{
+  font-style: bolder
+}
+
+.user-image{
+  img height=50
+}
+
 .navbar-default{
   background-color: red
 }

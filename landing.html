@@ -30,9 +30,10 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <header>
           <div class="col-lg-12">
@@ -58,8 +59,9 @@
                 </li>
                 <li>
                   <p class="navbar-btn">
-                    <a href="https://www.google.com" class=btn btn-link">
-                      <i class="fa fa-shopping-bag fa-lg"></i>
+                    <a href="https://www.google.com" class="btn btn-link">
+                      <i class="fa fa-shopping-bag fa-lg">
+                      </i>
                     </a>
                   </p>
                 </li>
@@ -73,26 +75,27 @@
 
 
 
-  <div class="container">
-    div class="row padding-inside-top-lg">
-    <div class="col-xs-12">
+  <div class="who-delivers container-fluid">
+    <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
       <h2>
         Who delivers in your neighborhood?
       </h2>
       <form>
-        <div>
-          <label>
+        <div class-"form group">
+          <label for="exampleInputAddress1">
             Enter your address below.
           </label>
 
-          <div>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">
             <i class="fa fa-map-marker"></i>
 
-            <input type="text" placeholder="Street address, city, state">
+            <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Street address, city, state">
           </div>
         </div>
 
-        <button type="submit">
+        <button type="submit" class="btn btn-primary btn-block">
           Find Food
         </button>
       </form>
@@ -100,8 +103,10 @@
   </div>
 </div>
 
+
+<div class="howt-to-foodhub container-fluid padding-inside-top-sm padding-inside-bottom-md">
 <div class="row">
-  <div class="col-md-offset-4 col-md-4">
+  <div class="col-sm-12 text-center">
     <h2>
       How to Foodhub
     </h2>
@@ -111,10 +116,11 @@
     </p>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-offset-1 col-md-2">
-    <img src="assets/images/map.jpg" class='img-circle' height=200>
-    <
+
+<div class="row text-center">
+  <div class="col-sm-4 padding-inside-top-sm">
+    <img src="assets/images/map.jpg" class='img-circle spotlight-image margin-below-bottom-sm' height=200>
+
 
     <h4>
       The where
@@ -124,9 +130,8 @@
       Browse menus from your favorite local restaurants.
     </p>
   </div>
-  <div class="col-md-offset-2 col-md-2">
-    <c>
-      <img src="assets/images/menu.jpg" class='img-circle' height=200></c>
+  <div class="col-sm-4 padding-inside-top-sm">
+      <img src="assets/images/menu.jpg" class="img-circle spotlight-image margin-below-bottom-sm" height=200>
 
       <h4>
         The what
@@ -136,8 +141,8 @@
         Select what you want to eat. Submit your order.
       </p>
     </div>
-    <div class="col-md-offset-2 col-md-2">
-      <img src="assets/images/delivery.jpg" class='img-circle'height=200>
+    <div class="col-sm-4 padding-inside-top-sm">
+      <img src="assets/images/delivery.jpg" class="img-circle spotlight-image margin-below-bottom-sm" height=200 >
 
       <h4>
         The delivery
@@ -148,17 +153,27 @@
       </p>
     </div>
   </div>
+</div>
+
+<div class="sound-bites container-fluid padding-inside-top-sm padding-inside-bottom-md">
 
   <div class="row">
-    <div class="col-md-offset-4 col-md-4">
+    <div class="col-sm-12 text-center">
       <h2>
         Sound bites
       </h2>
+    </div>
+  </div>
 
       <div class="row">
-        <div class="col-md-3">
-          <img src="assets/images/user-1.jpg" class="img-circle" height=50>
+        <div class="col-md-3 padding-inside-top-sm">
+          <div class="media">
+            <div class="media-left">
 
+
+          <img src="assets/images/user-1.jpg" class="img-circle user-image" height=50>
+        </div>
+        <div class="media-body">
           <p>
             @Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!
           </p>
@@ -167,8 +182,17 @@
             @xtinacousins
           </h4>
         </div>
-        <div class="col-md-3">
+      </div>
+    </div>
+        <div class="col-md-3 padding-inside-top-sm">
+          <div class="media">
+            <div class="media-left">
+
           <img src="assets/images/user-2.jpg"class="img-circle" height=50>
+          </div>
+          <div class="media-body">
+
+          </div>
 
           <p>
             Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
@@ -178,9 +202,15 @@
             @udezekene
           </h4>
         </div>
-        <div class="col-md-3">
-          <img src="assets/images/user-3.jpg"class="img-circle" height=50>
+      </div>
+    </div>
+        <div class="col-md-3 padding-inside-top-sm">
+          <div class="media">
+            <div class="media-left">
 
+          <img src="assets/images/user-3.jpg"class="img-circle" height=50>
+        </div>
+        <div class="media-body">
           <p>
             Shout out to Foodhub for making my life so so easy.
           </p>
@@ -189,8 +219,16 @@
             @adellecharles
           </h4>
         </div>
-        <div class="col-md-3">
+      </div>
+    </div>
+
+
+        <div class="col-md-3 padding-inside-top-sm">
+          <div class="media">
+            <div class="media-left">
           <img src="assets/images/user-4.jpg"class="img-circle" height=50>
+        </div>
+        <div class="media-body">
 
           <p>
             Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!
@@ -201,72 +239,95 @@
           </h4>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12">
+    </div>
+  </div>
+
+      <div class="download-apps container-fluid">
+        <div class="row text-center">
+
+        <div class="col-sm-6 col-sm-offset-3">
           <h2>
             Download apps
           </h2>
 
-          <p>
+          <p class="download">
             Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
           </p>
-          <img src="assets/images/app-store-badge.png" height=100>
+          <img src="assets/images/app-store-badge.png" height=100 class="margin-below-bottom-xs">
 
-          <img src="assets/images/google-play-badge.png" height=100>
+          <img src="assets/images/google-play-badge.png" height=100 class="margin-below-bottom-xs">
         </div>
       </div>
-      <div class="row padding-inside-top-md">
-        <div class="col-md-offset-1 col-md-3">
-          <h2>Why order with Foodhub?</h2>
 
-          <img src="assets/images/gem.jpg"class='img-circle' height=200>
+      <div class="why-order container-fluid padding-inside-top-sm padding-inside-bottom-md">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+
+
+
+          <h2>Why order with Foodhub?</h2>
+        </div>
+      </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-4 padding-inside-top-sm">
+          <img src="assets/images/gem.jpg"class='img-circle spotlight-image' height=200>
           <h4>Discover</h4>
           <p>
             We'll help you find hidden gems in your neighborhood.
           </p>
         </div>
-        <div class="col-md-offset-1 col-md-3">
-          <img src="assets/images/like.jpg"class='img-circle' height=200 >
+        <div class="col-sm-4 padding-inside-top-sm">
+          <img src="assets/images/like.jpg"class='img-circle spotlight-image' height=200 >
           <h4>Better</h4>
           <p>
             The more you use Foodhub, the better we are at making recommendations just for you.
           </p>
         </div>
-        <div class="col-md-offset-1 col-md-3">
-          <img src="assets/images/bite.jpg"class='img-circle' height=200>
+        <div class="col-sm-4 padding-inside-top-sm">
+          <img src="assets/images/bite.jpg"class='img-circle spotlight-image' height=200>
           <h4>Food</h4>
           <p>
             Enjoy each bite all the more knowing your order supports local businesses.
           </p>
         </div>
       </div>
-      <div class="row padding-inside-top-lg">
-        <div class="col-md-6">
+
+      <div class="about-foodhub container-fluid padding-inside-top-md padding-inside-bottom-md">
+
+      <div class="row">
+        <div class="col-md-6 text-center padding-inside-top-md">
           <h2>About Foodhub</h2>
         </div>
         <div class="col-md-6">
           <p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
         </div>
       </div>
-      <div class="row padding-inside-top-md">
+
+      <footer class="container-fluid padding-inside-bottom-md padding-inside-top-md">
+        <div class="row">
+
         <div class="col-md-3">
           <h4>Sign up for special offers</h4>
           <form>
-            <div>
-              <input type="email" placeholder="Email">
+            <div class="form-group">
+              <label for="exampleInputEmail1" class="sr-only">Email address </label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
 
-            <div>
-              <input type="number" placeholder="ZIP code">
+            <div class="form-group">
+              <label for="exampleInputZip1" class="sr-only"> Password</label>
+              <input type="number" class="form-control" id="exampleInputZip1" placeholder="ZIP code">
             </div>
 
-            <button type="submit">Send me treats</button>
+            <button type="submit" class="btn btn-primary btn-block">Send me treats</button>
           </form>
         </div>
+
         <div class="col-md-3">
           <h4>Get to know us</h4>
 
-          <ul>
+          <ul class="list-unstyled">
             <li>About Grubhub</li>
             <li>Our apps</li>
             <li>Our blog</li>
@@ -278,14 +339,14 @@
         <div class="col-md-3">
           <h4>Help</h4>
 
-          <ul>
+          <ul class="list-unstyled">
             <li>FAQ</li>
             <li>Contact us</li>
           </ul>
 
           <h4>Connect with us</h4>
 
-          <ul>
+          <ul class="list-unstyled">
             <li>Facebook</li>
             <li>Twitter</li>
             <li>Instagram</li>
@@ -294,7 +355,7 @@
           <div class="col-md-3">
             <h4>Partner with us</h4>
 
-            <ul>
+            <ul class="list-unstyled">
               <li>For restaurants</li>
               <li>For drivers</li>
               <li>For corporate accounts</li>
